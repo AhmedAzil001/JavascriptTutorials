@@ -19,7 +19,7 @@
 //     return user;
 // }
 
-// const user1=createUser("Ayesha","Iqbal","ayeshaiqbal@gmail.com",22,"khidirpur");
+// const user1=createUser("Son","Goku","something@gmail.com",22,"khidirpur");
 // const user2=createUser("Azil","Ahmed","azilahmed2016@gmail.com",22,"Topsia");
 // console.log(user1.about(),user2.about())
 // console.log(user1.is18(),user2.is18())
@@ -70,7 +70,7 @@
 //     return user;
 // }
 
-// const user1=createUser("Ayesha","Iqbal","ayeshaiqbal@gmail.com",22,"khidirpur");
+// const user1=createUser("Son","Goku","something@gmail.com",22,"khidirpur");
 // const user2=createUser("Azil","Ahmed","azilahmed2016@gmail.com",22,"Topsia");
 // console.log(user1.about());
 //createUser me nae mila to proto me check krega yani userMthods me kuki object.create ke wajah se createUser ka proto me userMethods ban gya hai 
@@ -128,7 +128,7 @@
 //     return this.age>=18;
 // }
 
-// const user1=createUser("Ayesha","Iqbal","ayeshaiqbal@gmail.com",22,"khidirpur");
+// const user1=createUser("Son","Goku","something@gmail.com",22,"khidirpur");
 // console.log(user1);
 // console.log(user1.about()); 
 
@@ -167,7 +167,7 @@
 //     return this.age>=18;
 // }
 
-// const user1=new CreateUser("Ayesha","Iqbal","ayeshaiqbal@gmail.com",22,"khidirpur");
+// const user1=new CreateUser("Son","Goku","something@gmail.com",22,"khidirpur");
 // console.log(user1);
 // console.log(user1.about()); 
 
@@ -204,7 +204,7 @@
 //     }
 // }
 
-// const user=new CreateUser("Ayesha","Iqbal","ayeshaiqbal@gmail.com",22,"khidirpur");
+// const user=new CreateUser("Son","Goku","something@gmail.com",22,"khidirpur");
 // console.log(user.about())
 // console.log(Object.getPrototypeOf(user))
 
@@ -275,7 +275,7 @@ const person1=new Person("Azil","Ahmed",22);
 console.log(person1)
 // console.log(person1.showName())
 console.log(person1.fullName)//get use krke without () yeh lagai call kr diye ---> showName as a property treat hoga
-person1.fullName="Ayesha Iqbal"
+person1.fullName="Son Goku"
 console.log(person1.fullName)
 console.log(Person.classInfo())
 console.log(Person.name);

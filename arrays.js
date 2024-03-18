@@ -118,7 +118,7 @@
 // const arr=["Azil","Amir"];
 // console.log(arr);
 // console.log("After push");
-// arr.push("Lucky");//isliye push hua kuki arr me address hai to humlog uska address nae change kre
+// arr.push("Nobody");//isliye push hua kuki arr me address hai to humlog uska address nae change kre
 // console.log(arr);
 //arr=["nobita","sizuka"];  //ab error dega kuki humko new array ka address store krre hai wahi same arr wala array mey
 //we can change the address that is the value without using function using let
@@ -126,14 +126,14 @@
 
 
 //for of loop--> use karo jab srf value se kaam hai
-// const arr=["Azil","Ahmed","Ayesha","Iqbal"];
+// const arr=["Azil","Ahmed","Goku","Vegeta"];
 // for(let name of arr){  //when we dont need the index
 //     console.log(name);
 // }
 
 
 //for in loop--> use karo jab index chhaiye
-// const arr=["Azil","Ahmed","Ayesha","Iqbal"];
+// const arr=["Azil","Ahmed","Goku","Vegeta"];
 // for(let index in arr){  //when we need the index
 //     console.log(index);
 //     console.log(`Value at index ${index} is ${arr[index]}`);
@@ -152,13 +152,13 @@
 // let [firstName,surname]=arr;
 // console.log(firstName);
 // console.log(surname);
-// firstName="Ayesha"; NO ERROR
+// firstName="Goku"; NO ERROR
 // console.log(firstName);
 
 // const [firstName,surname]=arr;
 // console.log(firstName);
 // console.log(surname);
-// firstName="Ayesha";// ERROR   kuki variable type const hai to usko change nae kr skte 
+// firstName="Goku";// ERROR   kuki variable type const hai to usko change nae kr skte 
 // console.log(firstName);
 
 // const arr=["Azil","Ahmed","An"];
@@ -181,10 +181,10 @@
 
 
 
-// const arr=["Azil","Ahmed","Ayesha","Iqbal"];
+// const arr=["Azil","Ahmed","Goku","Vegeta"];
 // let [firstName,name,...newArr]=arr;//spread operator se bacha hua element array ban jaega aise
 // console.log(firstName);//Azil
 // console.log(name);//Ahmed
-// console.log(newArr);//ab bacha hua ["Ayesha","Iqbal"] array ban gya
+// console.log(newArr);//ab bacha hua ["Goku","Vegeta"] array ban gya
 
 

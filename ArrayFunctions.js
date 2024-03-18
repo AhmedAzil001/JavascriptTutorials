@@ -26,7 +26,7 @@
 //use of forEach
 // const users=[
 //     {name:"azil",age:22},
-//     {name:"ayesha",age:22},
+//     {name:"Goku",age:22},
 //     {name:"ahmed",age:22}
 // ]
 
@@ -62,7 +62,7 @@
 //use of map
 // const users=[
 //     {name:"azil",age:22},
-//     {name:"ayesha",age:22},
+//     {name:"Goku",age:22},
 //     {name:"ahmed",age:22}
 // ]
 
@@ -133,7 +133,7 @@
 //-->aur har string ka first wala char ka ASCII value ke hisab se sort krega
 
 
-// const arr=["Baap","Azil","azil","Ayesha",];
+// const arr=["Baap","Azil","azil","Goku",];
 // console.log(arr.sort());//dictonary ke hisab se sort hoga aur agar mixed case hai to pehle uppercase wala sort hoga
 
 // const arr=[5,9,1200,410,3000];
@@ -180,9 +180,9 @@
 //real life example
 // const users=[
 //     {userId:1,name:"azil"},
-//     {userId:3,name:"ayesha"},
+//     {userId:3,name:"Goku"},
 //     {userId:4,name:"ahmed"},
-//     {userId:7,name:"iqbal"},
+//     {userId:7,name:"Vegeta"},
 // ]
 // //when we want to find a user with userId 3
 // const ans=users.find((user)=> user.userId === 3);
@@ -362,7 +362,7 @@
 //     personInfo:info
 // }
 // const person2={
-//     name:"Ayesha",
+//     name:"Goku",
 //     age:22,
 //     personInfo:info
 // }
@@ -382,7 +382,7 @@
 //     }
 // }
 // const user2={
-//     name:"Ayesha",
+//     name:"Goku",
 //     age:22
 // }
 // user1.about();
@@ -398,7 +398,7 @@
 //     }
 // }
 // const user2={
-//     name:"Ayesha",
+//     name:"Goku",
 //     age:22
 // }
 
@@ -413,7 +413,7 @@
 //     age:22,
 // }
 // const user2={
-//     name:"Ayesha",
+//     name:"Goku",
 //     age:22
 // }
 // about.call(user1,"Male","Ahmed");
@@ -429,7 +429,7 @@
 //     age:22,
 // }
 // const user2={
-//     name:"Ayesha",
+//     name:"Goku",
 //     age:22
 // }
 // about.apply(user1,["Male","Ahmed"]);
@@ -445,7 +445,7 @@
 //     age:22,
 // }
 // const user2={
-//     name:"Ayesha",
+//     name:"Goku",
 //     age:22
 // }
 // const func1=about.bind(user1,"Male","Ahmed");
@@ -501,7 +501,7 @@
 //     return user;
 // }
 
-// const user1=createUser("Ayesha","Iqbal","ayeshaiqbal@gmail.com",22,"khidirpur");
+// const user1=createUser("Son","Goku","something@gmail.com",22,"khidirpur");
 // const user2=createUser("Azil","Ahmed","azilahmed2016@gmail.com",22,"Topsia");
 // console.log(user1.about(),user2.about())
 // console.log(user1.is18(),user2.is18())

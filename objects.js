@@ -59,7 +59,7 @@
 //for in loop
 
 // const person={
-//     name:"Azil",
+//     name:"Vegeta",
 //     age:22,
 //     "person hobies":["Cricket","Football","MMA"] 
 // }
@@ -74,7 +74,7 @@
 //Object.keys
 
 // const person={
-//     name:"Azil",
+//     name:"Goku",
 //     age:22,
 //     "person hobies":["Cricket","Football","MMA"] 
 // }
@@ -149,7 +149,7 @@
 // const newObj1={..."abc"}//character ka index key ban jaega aur character value ban jaega
 // console.log(newObj1);
 
-// const newObj2={...["Azil","Ahmed"]}//array element ka index key ban jaega aur array element value ban jaega
+// const newObj2={...["Goku","Vegeta"]}//array element ka index key ban jaega aur array element value ban jaega
 // console.log(newObj2);
 
 
@@ -157,9 +157,9 @@
 
 //normal way-->
 // const person={
-//     name:"Azil",
+//     name:"Goku",
 //     age:22,
-//     surname:"Ahmed",
+//     surname:"Son",
 //     degree:"Btech"
 // }
 //agar name name se variable bnana hai ya age name ka
@@ -171,7 +171,7 @@
 // let { name , age } = person;//do variable ban gya ab kahi bhi use kr skte isko
 // console.log(name);
 // console.log(age);
-// name="Ayesha";//obj ka value change kr skte agar datatype constant nae hua to
+// name="Bulma";//obj ka value change kr skte agar datatype constant nae hua to
 // console.log(name);
 
 // let { name:nameVar , age:ageVar } = person;//agar dusra name ka variable bnana ho yani key ka name ka varibale agar nae bnana to dusra variable use kr skte hai
@@ -184,9 +184,9 @@
 
 //objects inside array
 // const users=[
-//     {name:"Iqbal",age:21,gender:"Female"},
-//     {name:"Ayesha",age:21},
-//     {name:"Azil",age:22}
+//     {name:"Bulma",age:21,gender:"Female"},
+//     {name:"Vegeta",age:21},
+//     {name:"Goku",age:22}
 // ]
 // console.log(users);
 // for(let user of users){
@@ -195,7 +195,7 @@
 
 //nested destructing of array
 // const [user1,user2,user3] = users;
-// console.log(user1); //{name:"Iqbal",age:21,gender:"Female"}
+// console.log(user1); //{name:"Bulma",age:21,gender:"Female"}
 
 //agar humko user1 ka name aur user3 ka age chhaiye bas
 
